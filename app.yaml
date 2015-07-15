@@ -1,0 +1,9 @@
+application: maitai
+version: dumb-maitai-alpha
+runtime:php55
+api_version: 1
+#basic handler including https access
+handler:
+- url: /
+  script: PHPmailer.php
+  secure: optional
